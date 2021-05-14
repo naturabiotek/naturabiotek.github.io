@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -47,6 +50,12 @@
   width: 50%;
   text-align: left;
   font-family: "Fredoka One";
+}
+
+@media screen and (max-width: 720px) {
+  .logoImg {
+    width: 80%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
