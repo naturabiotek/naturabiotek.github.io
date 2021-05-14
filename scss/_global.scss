@@ -1,0 +1,47 @@
+@import 'variables';
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:$color-font-common;
+    background-color: transparent;
+}
+
+.screenHeight{
+    height:100vh;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    &.screenHeight{
+        height:100vh;
+    }
+    &.topSpaced {
+        margin-top:2rem;
+    }
+}
+
+.centered {
+    text-align: center;
+}
+
+.header {
+    font-size: $font-size-header;
+}
+
+.declare {
+    color: $color-strong;
+    font-size: $font-size-strong;
+    font-weight:700;
+}
+
+.logoImg {
+    width:50%;
+    text-align: left;
+    font-family: "Fredoka One";
+}

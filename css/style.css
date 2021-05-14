@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #9c6904;
+  background-color: transparent;
+}
+
+.screenHeight {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+.container.screenHeight {
+  height: 100vh;
+}
+.container.topSpaced {
+  margin-top: 2rem;
+}
+
+.centered {
+  text-align: center;
+}
+
+.header {
+  font-size: 1.5rem;
+}
+
+.declare {
+  color: #a71b1b;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.logoImg {
+  width: 50%;
+  text-align: left;
+  font-family: "Fredoka One";
+}
+
+/*# sourceMappingURL=style.css.map */
