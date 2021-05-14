@@ -24,7 +24,8 @@
 .container.screenHeight {
   height: 100vh;
 }
-.container.topSpaced {
+
+.topSpaced {
   margin-top: 2rem;
 }
 
